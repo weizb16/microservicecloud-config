@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev  #开发环境
+  application:
+    name: microservicecloud-config-wzb-dev
+---
+spring:
+  profiles: test  #开发环境
+  application:
+    name: microservicecloud-config-wzb-test
+
+# 请保存为UTF-8格式
